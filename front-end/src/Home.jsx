@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
+import DebugToken from './components/DebugToken'
 import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -21,6 +22,7 @@ function Home() {
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
+        < DebugToken />
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
